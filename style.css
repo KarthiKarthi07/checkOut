@@ -1,0 +1,315 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #EFF0FF;
+}
+
+ul {
+    list-style: none;
+}
+
+@font-face {
+    font-family: 'Product Sans Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Product Sans Regular'), url('fonts/ProductSans-Regular.woff') format('woff');
+}
+    
+    
+@font-face {
+    font-family: 'Product Sans Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Product Sans Italic'), url('fonts/ProductSans-Italic.woff') format('woff');
+}
+    
+    
+@font-face {
+    font-family: 'Product Sans Thin Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Product Sans Thin Regular'), url('fonts/ProductSans-Thin.woff') format('woff');
+}
+    
+    
+@font-face {
+    font-family: 'Product Sans Light Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Product Sans Light Regular'), url('fonts/ProductSans-Light.woff') format('woff');
+}
+    
+    
+@font-face {
+    font-family: 'Product Sans Medium Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Product Sans Medium Regular'), url('fonts/ProductSans-Medium.woff') format('woff');
+}
+    
+    
+@font-face {
+    font-family: 'Product Sans Black Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Product Sans Black Regular'), url('fonts/ProductSans-Black.woff') format('woff');
+}
+    
+    
+@font-face {
+    font-family: 'Product Sans Thin Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Product Sans Thin Italic'), url('fonts/ProductSans-ThinItalic.woff') format('woff');
+}
+    
+    
+@font-face {
+    font-family: 'Product Sans Light Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Product Sans Light Italic'), url('fonts/ProductSans-LightItalic.woff') format('woff');
+}
+    
+    
+@font-face {
+    font-family: 'Product Sans Medium Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Product Sans Medium Italic'), url('fonts/ProductSans-MediumItalic.woff') format('woff');
+}
+    
+    
+@font-face {
+    font-family: 'Product Sans Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Product Sans Bold'), url('fonts/ProductSans-Bold.woff') format('woff');
+}
+    
+    
+@font-face {
+    font-family: 'Product Sans Bold Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Product Sans Bold Italic'), url('fonts/ProductSans-BoldItalic.woff') format('woff');
+}
+    
+    
+@font-face {
+    font-family: 'Product Sans Black Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Product Sans Black Italic'), url('fonts/ProductSans-BlackItalic.woff') format('woff');
+}
+
+.circle-1 {
+    width: 450px;
+    height: 450px;
+    float: left;
+    margin-left: 6%;
+    margin-top: 4%;
+}
+
+.circle-2 {
+    width: 450px;
+    height: 450px;
+    float: right;
+    margin-right: 6%;
+    margin-top: 22%;
+}
+
+.card {
+    background: #F8FBFF;
+    width: 1100px;
+    height: 600px;
+    position: absolute;
+    margin-left: 12%;
+    margin-top: 8%;
+    border-radius: 57px;
+}
+
+.nav {
+    margin-left: 4%;
+    margin-top: 2%;
+    display: flex;
+    gap: 30%;
+}
+
+.logo {
+    font-family:'Product Sans Black Regular';
+    font-weight:normal;
+    font-size: 22px;
+    color: #060607;
+    cursor: pointer;
+}
+
+.nav-opt {
+    display: flex;
+    gap: 40%;
+}
+
+.nav-opt li {
+    font-family:'Product Sans Regular';
+    font-weight:normal;
+    font-size:22px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.nav-log {
+    font-family:'Product Sans Regular';
+    font-weight:bold;
+    font-size:22px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.image {
+    position: absolute;
+    left: 0%;
+    margin-top: 3%;
+}
+
+.heading {
+    font-family: 'Product Sans Black';
+    font-weight: normal;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-top: 10%;
+    margin-left: 50%;
+}
+
+.first-det {
+    font-family: 'Product Sans Regular';
+    font-weight: normal;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-left: 550px;
+    display: flex;
+    margin-top: 3%;
+    gap: 20px;
+}
+
+.first-det input {
+    width: 400px;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 1px solid #0053BF;
+    background: #F8FBFF;
+    background-image: url("assets/name.svg");
+    background-size: 20px;
+    background-repeat: no-repeat;
+}
+
+.second-det {
+    font-family: 'Product Sans Regular';
+    font-weight: normal;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-left: 476px;
+    display: flex;
+    margin-top: 3%;
+    gap: 20px;
+}
+
+.second-det input {
+    width: 400px;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 1px solid #0053BF;
+    background: #F8FBFF;
+    background-image: url("assets/pin-number.svg");
+    background-size: 20px;
+    background-repeat: no-repeat;
+}
+
+.third-det {
+    font-family: 'Product Sans Regular';
+    font-weight: normal;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-left: 506px;
+    display: flex;
+    margin-top: 3%;
+    gap: 20px;
+}
+
+.third-det input {
+    width: 100px;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 1px solid #0053BF;
+    background: #F8FBFF;
+    background-image: url("assets/calendar.svg");
+    background-size: 20px;
+    background-repeat: no-repeat;
+}
+
+.fourth-det {
+    font-family: 'Product Sans Regular';
+    font-weight: normal;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-left: 557px;
+    display: flex;
+    margin-top: 3%;
+    gap: 20px;
+}
+
+.fourth-det input {
+    width: 100px;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 1px solid #0053BF;
+    background: #F8FBFF;
+    background-image: url("assets/unlock.svg");
+    background-size: 20px;
+    background-repeat: no-repeat;
+}
+
+.submit {
+    width: 224px;
+    height: 48px;
+    margin-left: 557px;
+    margin-top: 3%;
+    background: #FFFFFF;
+    border: #707070 1px solid;
+    border-radius: 7px;
+    color: #0053BF;
+    font-family: Product Sans Medium;
+    font-weight: normal;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.submit:hover {
+    background: #FFFFFA;
+    font-size: 20px;
+}
+
+.footer {
+    margin-left: 40%;
+    margin-top: 7%;
+    display: flex;
+    gap: 15px;
+    font-family: Product Sans Light;
+    font-weight: normal;
+    font-size: 18px;
+}
+
+.footer a {
+    font-family: Product Sans medium;
+    font-weight: normal;
+    font-size: 18px;
+    text-decoration: none; 
+    color: #0053BF;
+}
